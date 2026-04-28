@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/8746235/JXNetwork'
+  s.homepage         = 'https://github.com/ZJKCode/HSSpecs/JXNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '8746235' => 'k721684713@163.com' }
-  s.source           = { :git => 'https://github.com/8746235/JXNetwork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZJKCode/HSSpecs/JXNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'JXNetwork/Classes/**/*'
   
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency "Alamofire", "~> 5.0"  # 依赖第三方库
+  s.static_framework = true  # 生成静态框架
+
 end

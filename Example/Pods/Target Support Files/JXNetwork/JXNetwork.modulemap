@@ -1,0 +1,6 @@
+framework module JXNetwork {
+  umbrella header "JXNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

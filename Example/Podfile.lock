@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (5.11.2)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JXNetwork (0.1.0):
+    - Alamofire (~> 5.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - JXNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JXNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 400275dd1c6d87d95a041861d2a59da4b520a203
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JXNetwork: 0afe6cc48bc265b1b94f3efac2afae4b042cd76a
+
+PODFILE CHECKSUM: b1c7e77bdd2eb3c29aa5f0f40b29e976c7d534e4
+
+COCOAPODS: 1.16.2
