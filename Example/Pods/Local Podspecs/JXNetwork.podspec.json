@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of JXNetwork.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ZJKCode/HSSpecs/JXNetwork",
+  "homepage": "https://github.com/ZJKCode/JXNetwork.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "8746235": "k721684713@163.com"
   },
   "source": {
-    "git": "https://github.com/ZJKCode/HSSpecs/JXNetwork.git",
+    "git": "https://github.com/ZJKCode/JXNetwork.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "16.0"
   },
-  "source_files": "JXNetwork/Classes/**/*",
+  "source_files": "JXNetwork/Classes/Core/**/*",
   "dependencies": {
     "Alamofire": [
       "~> 5.0"

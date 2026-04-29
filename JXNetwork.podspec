@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZJKCode/HSSpecs/JXNetwork'
+  s.homepage         = 'https://github.com/ZJKCode/JXNetwork.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '8746235' => 'k721684713@163.com' }
-  s.source           = { :git => 'https://github.com/ZJKCode/HSSpecs/JXNetwork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZJKCode/JXNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '16.0'
 
-  s.source_files = 'JXNetwork/Classes/**/*'
-  
+  s.source_files = 'JXNetwork/Classes/Core/**/*'
+  s.platform     = :ios, "16.0"
+
   # s.resource_bundles = {
   #   'JXNetwork' => ['JXNetwork/Assets/*.png']
   # }

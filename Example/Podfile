@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '16.0'
 
 target 'JXNetwork_Example' do
   pod 'JXNetwork', :path => '../'
@@ -10,4 +10,17 @@ target 'JXNetwork_Example' do
 
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
+  
+end
+post_install do |installer|
+  flutter_post_install(installer) if defined?(flutter_post_install)
+  
+  installer.pods_project.targets.each do |target|
+
+      
+      target.build_configurations.each do |config|
+        # 设置为你需要的版本，建议iOS 13.0+
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
+      end
+    end
 end
